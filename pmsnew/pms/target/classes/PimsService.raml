@@ -1,0 +1,23 @@
+#%RAML 1.0
+baseUri: https://anypoint.mulesoft.com/mocking/api/v1/links/eb15d239-1f7f-4e1f-af6e-ecd97ab9073a/ # 
+title: PIMS
+/pms:  
+ get:
+  queryParameters:
+    pms_code:
+     required: true
+  responses:
+    200:
+     body:
+       application/json:
+         example:
+           type: !include PIMS.raml
+
+            
+            
+                
+
+              
+
+
+         
