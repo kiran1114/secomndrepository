@@ -18,7 +18,7 @@
 
 	<build>
 		<plugins>
-			<plugin>
+			<plugin> 
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-app-maven-plugin</artifactId>
 				<version>${mule.tools.version}</version>
